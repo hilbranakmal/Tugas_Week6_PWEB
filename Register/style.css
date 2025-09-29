@@ -1,0 +1,81 @@
+body {
+    background: #f7f7f7;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.small {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Garis warna pelangi */
+.colorgraph {
+    height: 5px;
+    border-top: 0;
+    background: #c4e17f;
+    border-radius: 5px;
+    background-image: linear-gradient(
+        to right,
+        #c4e17f,
+        #c4e17f 12.5%,
+        #f7fdca 12.5%,
+        #f7fdca 25%,
+        #fecf71 25%,
+        #fecf71 37.5%,
+        #f0776c 37.5%,
+        #f0776c 50%,
+        #db9dbe 50%,
+        #db9dbe 62.5%,
+        #c49cde 62.5%,
+        #c49cde 75%,
+        #669ae1 75%,
+        #669ae1 87.5%,
+        #62c2e4 87.5%,
+        #62c2e4
+    );
+}
+
+.form-control {
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.btn {
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #337ab7;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #286090;
+}
+
+.btn-success {
+    background-color: #5cb85c;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #449d44;
+}
+
+/* Tombol checkbox custom */
+.button-checkbox .btn {
+    min-width: 100px;
+}
+
+.modal-body {
+    max-height: 400px;
+    overflow-y: auto;
+}

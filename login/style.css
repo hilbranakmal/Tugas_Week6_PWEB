@@ -1,0 +1,64 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+/* Container full height */
+.container-fluid {
+  height: 100vh;
+}
+
+.bg-image {
+  background-image: url("lanskap-pantai-hawaii-dengan-alam-dan-garis-pantai_23-2151795028.jpg"); /* Ganti sesuai gambar kamu */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Login section */
+.login {
+  min-height: 100vh;
+}
+
+.login-heading {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.form-control {
+  border-radius: 8px;
+  padding: 12px 15px;
+  font-size: 1rem;
+}
+
+.form-control:focus {
+  border-color: #0066ff;
+  box-shadow: 0 0 5px rgba(0, 102, 255, 0.5);
+}
+
+.btn-login {
+  border-radius: 8px;
+  padding: 12px;
+  background-color: #0066ff;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-login:hover {
+  background-color: #0052cc;
+}
+
+.text-center a {
+  color: #0066ff;
+  text-decoration: none;
+}
+
+.text-center a:hover {
+  text-decoration: underline;
+}
