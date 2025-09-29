@@ -1,5 +1,4 @@
     $(function () {
-    // Fungsi untuk toggle tombol "I Agree"
     $('.button-checkbox').each(function () {
         var $widget = $(this),
             $button = $widget.find('button'),
